@@ -61,7 +61,13 @@ content:
         type: boolean
         default: true
 
-      - name: body
+       - name: body
         label: Content
         type: rich-text
         required: true
+        options:
+          format: markdown
+          media: true
+          path: assets/images/posts
+          rename: true
+          switcher: true
