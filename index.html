@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UNSCROLLED — for a more vivid life</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <nav class="main-navigation">
+
+            <div class="nav-links">
+
+                <a href="index.html">
+                    HOME
+                </a>
+
+                <a href="pages/offline.html">
+                    OFFLINE
+                </a>
+
+                <a href="pages/wellbeing.html">
+                    WELLBEING
+                </a>
+
+                <a href="pages/creative.html">
+                    CREATIVE
+                </a>
+
+                <a href="about.html">
+                    ABOUT
+                </a>
+
+            </div>
+
+
+            <button
+                class="search-button"
+                type="button"
+                aria-label="Search"
+            >
+
+                <img
+                    src="assets/icons/search.png"
+                    alt=""
+                    width="16"
+                    height="16"
+                >
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =================================================
+             BRAND
+        ================================================== -->
+
+        <section class="brand-section">
+
+            <h1 class="brand-title">
+                UNSCROLLED
+            </h1>
+
+            <p class="brand-tagline">
+                for a more vivid life
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             FEATURED SLIDER
+        ================================================== -->
+
+        <section class="featured-slider">
+
+
+            <!-- PREVIOUS -->
+
+            <button
+                class="slider-arrow slider-arrow-left"
+                id="sliderPrev"
+                type="button"
+                aria-label="Previous slide"
+            >
+                &lt;
+            </button>
+
+
+
+            <!-- VIEWPORT -->
+
+            <div class="slider-viewport">
+
+                <div
+                    class="slider-track"
+                    id="sliderTrack"
+                >
+
+
+                    <!-- OFFLINE -->
+
+                    <div class="featured-slide">
+
+                        <h2 class="featured-title">
+                            OFFLINE
+                        </h2>
+
+                        <a
+                            class="featured-button"
+                            href="pages/offline.html"
+                        >
+                            learn more
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- WELLBEING -->
+
+                    <div class="featured-slide">
+
+                        <h2 class="featured-title">
+                            WELLBEING
+                        </h2>
+
+                        <a
+                            class="featured-button"
+                            href="pages/wellbeing.html"
+                        >
+                            learn more
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- CREATIVE -->
+
+                    <div class="featured-slide">
+
+                        <h2 class="featured-title">
+                            CREATIVE
+                        </h2>
+
+                        <a
+                            class="featured-button"
+                            href="pages/creative.html"
+                        >
+                            learn more
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- NEXT -->
+
+            <button
+                class="slider-arrow slider-arrow-right"
+                id="sliderNext"
+                type="button"
+                aria-label="Next slide"
+            >
+                &gt;
+            </button>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             CATEGORY MARQUEE
+        ================================================== -->
+
+        <div class="category-bar">
+
+            <div class="marquee-track">
+
+
+                <!-- FIRST COPY -->
+
+                <div class="marquee-content">
+
+                    <a href="labels/art.html">ART</a>
+                    <a href="#">RECIPES</a>
+                    <a href="#">SPORT</a>
+                    <a href="#">NATURE</a>
+                    <a href="#">MINDFULNESS</a>
+                    <a href="#">HOBBIES</a>
+                    <a href="#">CAMPING</a>
+                    <a href="#">BOARD GAMES</a>
+                    <a href="#">BOOKS</a>
+                    <a href="#">COLLECTIONS</a>
+                    <a href="#">FAMILY</a>
+                    <a href="#">CULTURE</a>
+
+                </div>
+
+
+                <!-- SECOND COPY FOR INFINITE LOOP -->
+
+                <div
+                    class="marquee-content"
+                    aria-hidden="true"
+                >
+
+                    <a href="labels/art.html">ART</a>
+                    <a href="#">RECIPES</a>
+                    <a href="#">SPORT</a>
+                    <a href="#">NATURE</a>
+                    <a href="#">MINDFULNESS</a>
+                    <a href="#">HOBBIES</a>
+                    <a href="#">CAMPING</a>
+                    <a href="#">BOARD GAMES</a>
+                    <a href="#">BOOKS</a>
+                    <a href="#">COLLECTIONS</a>
+                    <a href="#">FAMILY</a>
+                    <a href="#">CULTURE</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             LATEST POSTS
+        ================================================== -->
+
+        <section class="latest-posts-section">
+
+
+            <div class="section-label">
+                latest posts
+            </div>
+
+
+
+            <div class="latest-posts-grid">
+
+
+                <!-- POST 1 -->
+
+                <article class="latest-post">
+
+                    <a
+                        class="latest-post-image"
+                        href="posts/sample-post.html"
+                        aria-label="Read Latest post title"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="latest-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Latest post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+
+                    <p class="latest-post-excerpt">
+
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- POST 2 -->
+
+                <article class="latest-post">
+
+                    <a
+                        class="latest-post-image"
+                        href="posts/sample-post.html"
+                        aria-label="Read Latest post title"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="latest-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Latest post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+
+                    <p class="latest-post-excerpt">
+
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                </article>
+
+
+            </div>
+
+
+
+            <div class="load-more-container">
+
+                <button
+                    class="load-more-button"
+                    type="button"
+                    id="latestLoadMore"
+                >
+                    load more
+                </button>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             MOST POPULAR
+        ================================================== -->
+
+        <section class="popular-posts-section">
+
+
+            <div class="popular-section-label">
+                most popular
+            </div>
+
+
+
+            <div class="popular-posts-grid">
+
+
+                <!-- POPULAR 1 -->
+
+                <article class="popular-post">
+
+                    <a
+                        class="popular-post-image"
+                        href="posts/sample-post.html"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="popular-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Most popular post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+                </article>
+
+
+
+                <!-- POPULAR 2 -->
+
+                <article class="popular-post">
+
+                    <a
+                        class="popular-post-image"
+                        href="posts/sample-post.html"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="popular-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Most popular post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+                </article>
+
+
+
+                <!-- POPULAR 3 -->
+
+                <article class="popular-post">
+
+                    <a
+                        class="popular-post-image"
+                        href="posts/sample-post.html"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="popular-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Most popular post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+                </article>
+
+
+
+                <!-- POPULAR 4 -->
+
+                <article class="popular-post">
+
+                    <a
+                        class="popular-post-image"
+                        href="posts/sample-post.html"
+                    >
+
+                        <img
+                            src=""
+                            alt=""
+                        >
+
+                    </a>
+
+
+                    <h2 class="popular-post-title">
+
+                        <a href="posts/sample-post.html">
+                            Most popular post title
+                        </a>
+
+                    </h2>
+
+
+                    <a
+                        class="read-more-button"
+                        href="posts/sample-post.html"
+                    >
+                        read more
+                    </a>
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+
+            <nav class="footer-navigation">
+
+                <a href="index.html">
+                    HOME
+                </a>
+
+                <a href="pages/offline.html">
+                    OFFLINE
+                </a>
+
+                <a href="pages/wellbeing.html">
+                    WELLBEING
+                </a>
+
+                <a href="pages/creative.html">
+                    CREATIVE
+                </a>
+
+                <a href="about.html">
+                    ABOUT
+                </a>
+
+            </nav>
+
+
+
+            <div class="footer-socials">
+
+                <a
+                    href="#"
+                    aria-label="Instagram"
+                >
+
+                    <img
+                        src="assets/icons/instagram.png"
+                        alt="Instagram"
+                    >
+
+                </a>
+
+
+                <a
+                    href="#"
+                    aria-label="X"
+                >
+
+                    <img
+                        src="assets/icons/twitter.png"
+                        alt="X"
+                    >
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- MAIN JAVASCRIPT -->
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
