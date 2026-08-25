@@ -1,0 +1,67 @@
+media:
+  input: assets/images/posts
+  output: /assets/images/posts
+
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    filename: "{year}-{month}-{day}-{slug}.md"
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - OFFLINE
+            - WELLBEING
+            - CREATIVE
+
+      - name: labels
+        label: Labels
+        type: string
+        list: true
+        required: false
+
+      - name: hero_image
+        label: Hero image
+        type: image
+        required: false
+
+      - name: excerpt
+        label: Excerpt
+        type: text
+        required: false
+
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+
+      - name: popular
+        label: Most popular
+        type: boolean
+        default: false
+
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+
+      - name: body
+        label: Content
+        type: rich-text
+        required: true
