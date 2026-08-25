@@ -1,6 +1,11 @@
 media:
-  input: assets/images/posts
-  output: /assets/images/posts
+  - name: post_images
+    label: Post images
+    input: assets/images/posts
+    output: /assets/images/posts
+    rename: true
+    categories:
+      - image
 
 content:
   - name: posts
@@ -40,6 +45,9 @@ content:
         label: Hero image
         type: image
         required: false
+        options:
+          media: post_images
+          rename: true
 
       - name: excerpt
         label: Excerpt
@@ -61,13 +69,12 @@ content:
         type: boolean
         default: true
 
-       - name: body
+      - name: body
         label: Content
         type: rich-text
         required: true
         options:
           format: markdown
-          media: true
-          path: assets/images/posts
+          media: post_images
           rename: true
           switcher: true
