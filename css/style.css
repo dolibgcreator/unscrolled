@@ -1976,3 +1976,42 @@ button {
         margin-top: 50px;
     }
 }
+
+/* =========================================================
+   BLOG POST — DATE + CATEGORY
+========================================================= */
+
+.post-meta-row {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 28px 5% 0;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "DM Mono", monospace;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.post-date,
+.post-meta-separator,
+.post-category {
+    color: #000;
+}
+
+.post-category {
+    text-decoration: none;
+}
+
+.post-category:hover {
+    opacity: 0.55;
+}

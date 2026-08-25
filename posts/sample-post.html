@@ -73,7 +73,6 @@
 
     <header class="post-hero">
 
-
         <div class="post-hero-title">
 
             <h1>
@@ -84,10 +83,42 @@
         </div>
 
 
-        <div class="post-hero-image"></div>
+        <div class="post-hero-image">
 
+            <!-- HERO IMAGE GOES HERE -->
+
+        </div>
 
     </header>
+
+
+
+    <!-- =====================================================
+         POST META — DATE + CATEGORY
+    ====================================================== -->
+
+    <div class="post-meta-row">
+
+        <div class="post-meta">
+
+            <span class="post-date">
+                AUGUST 25, 2026
+            </span>
+
+            <span class="post-meta-separator">
+                /
+            </span>
+
+            <a
+                class="post-category"
+                href="../pages/offline.html"
+            >
+                OFFLINE
+            </a>
+
+        </div>
+
+    </div>
 
 
 
@@ -123,6 +154,29 @@
             </p>
 
 
+
+            <!-- =================================================
+                 INLINE POST IMAGE
+
+                 Later this image can be inserted through the CMS
+                 anywhere inside the article.
+            ================================================== -->
+
+            <figure class="post-content-image">
+
+                <div
+                    class="post-content-image-placeholder"
+                    aria-label="Article image placeholder"
+                ></div>
+
+                <figcaption>
+                    Optional image caption goes here.
+                </figcaption>
+
+            </figure>
+
+
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -141,6 +195,20 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum dolore eu fugiat nulla pariatur.
             </p>
+
+
+
+            <!-- SECOND EXAMPLE IMAGE -->
+
+            <figure class="post-content-image">
+
+                <div
+                    class="post-content-image-placeholder"
+                    aria-label="Article image placeholder"
+                ></div>
+
+            </figure>
+
 
 
             <p>
@@ -192,6 +260,7 @@
                             class="share-option"
                             id="copyLinkButton"
                             type="button"
+                            aria-label="Copy link"
                         >
 
                             <img
@@ -199,9 +268,7 @@
                                 alt=""
                             >
 
-                            <span>
-                                copy
-                            </span>
+                            <span>copy</span>
 
                         </button>
 
@@ -215,6 +282,7 @@
                             href="#"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Share on WhatsApp"
                         >
 
                             <img
@@ -222,9 +290,7 @@
                                 alt=""
                             >
 
-                            <span>
-                                whatsapp
-                            </span>
+                            <span>whatsapp</span>
 
                         </a>
 
@@ -236,6 +302,7 @@
                             class="share-option"
                             id="messengerShare"
                             type="button"
+                            aria-label="Share on Messenger"
                         >
 
                             <img
@@ -243,9 +310,7 @@
                                 alt=""
                             >
 
-                            <span>
-                                messenger
-                            </span>
+                            <span>messenger</span>
 
                         </button>
 
@@ -259,6 +324,7 @@
                             href="#"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Share on X"
                         >
 
                             <img
@@ -266,9 +332,7 @@
                                 alt=""
                             >
 
-                            <span>
-                                X
-                            </span>
+                            <span>X</span>
 
                         </a>
 
@@ -280,6 +344,7 @@
                             class="share-option"
                             id="emailShare"
                             href="#"
+                            aria-label="Share by email"
                         >
 
                             <img
@@ -287,9 +352,7 @@
                                 alt=""
                             >
 
-                            <span>
-                                mail
-                            </span>
+                            <span>mail</span>
 
                         </a>
 
@@ -337,8 +400,6 @@
                 >
 
 
-                    <!-- NICKNAME -->
-
                     <input
                         class="comment-field"
                         id="commentNickname"
@@ -350,9 +411,6 @@
                     >
 
 
-
-                    <!-- COMMENT -->
-
                     <textarea
                         class="comment-field comment-textarea"
                         id="commentText"
@@ -361,9 +419,6 @@
                         required
                     ></textarea>
 
-
-
-                    <!-- SEND -->
 
                     <div class="comment-submit-row">
 
@@ -385,9 +440,6 @@
 
                 </form>
 
-
-
-                <!-- SAVED COMMENTS -->
 
                 <div
                     class="comments-list"
@@ -499,7 +551,6 @@
 
             <nav class="footer-navigation">
 
-
                 <a href="../index.html">
                     HOME
                 </a>
@@ -519,7 +570,6 @@
                 <a href="../about.html">
                     ABOUT
                 </a>
-
 
             </nav>
 
